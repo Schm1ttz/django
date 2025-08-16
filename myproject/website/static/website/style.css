@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body.home {
+    background-color: #f0f8ff;
+}
+
+body.home h1 {
+    color: #0066cc;
+}
+
+body.sobre {
+    background-color: #fff0f5;
+}
+
+body.sobre h1 {
+    color: #ff69b4;
+    font-family: 'Georgia', serif;
+}
+
+body.contato {
+    background-color: #f0fff0;
+}
+
+body.contato h1 {
+    color: #2e8b57;
+}
+
+.contact-info {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.contact-button:hover {
+    background-color: #3cb371;
+}
+
+ul {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
